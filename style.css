@@ -1,0 +1,39 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-one, .img-one, .img-two, .text-two, .text-three {
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.text-one {
+    flex-basis: 100%;
+    background: aqua;
+    height: 50px;
+}
+
+.img-one {
+    flex-basis: 25%;
+    background: aquamarine;
+    height: 100px;
+}
+
+.img-two {
+    flex-basis: 50%;
+    background: khaki;
+}
+
+.text-two {
+    flex-basis: 25%;
+    background: fuchsia;
+}
+
+.text-three {
+    flex-basis: 100%;
+    background: burlywood;
+    height: 50px;
+}
